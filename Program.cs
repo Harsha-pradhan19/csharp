@@ -1,8 +1,7 @@
 using System;
-using csharp.people;
   
 // namespace declaration
-namespace csharp {
+namespace csharp.calc {
 
       
    
@@ -10,14 +9,8 @@ namespace csharp {
           
         // Main Method
         static void Main(string[] args) {
-        
-
-         
-         Person p=new Person();
-         p.name="Harsha";
-         p.Age=23;
-         p.HasPet=false;
-         p.Greeting();
+        int result=Calculator.Add(5,10);
+        Console.WriteLine(result);
 
 
 
